@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.answers {
+    display: flex;
+    flex-direction: row;
+}
+
+.answer__corect{
+    background-color: green;
+}
+
+
+.answer__incorect{
+    background-color: red;
+}
